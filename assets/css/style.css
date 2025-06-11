@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+header figure img {
+  width: 200px;
+  height: 70px;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+.icones a {
+  width: 50px;
+  height: 50px;
+}
+
+a img {
+  width: 50px;
+  height: 50px;
+  margin-inline-end: 10px;
+  margin-top: 10px;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: end;
+  width: 100px;
+}
+
+section.banner {
+  display: flex;
+  background-color: rgb(45, 45, 45);
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section figure #lupa {
+  display: flex;
+  width: 30px;
+  height: auto;
+}
+
+.content {
+  background-image: linear-gradient(
+    rgba(7, 198, 96, 0.733),
+    rgba(7, 203, 206, 0.662)
+  );
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontes {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.fontes h1,h3{
+  margin-top: 20px;
+}
+
+
+#btn-more {
+  background-color: rgba(224, 224, 224, 0.527);
+  border: none;
+  padding: 20px 80px;
+  border-radius: 10px;
+  color: #000;
+}
+
+#btn-more:hover {
+  background-color: rgba(122, 122, 122, 0.541);
+  cursor: pointer;
+}
+
+a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+main.cards{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  gap: 6rem;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+
+.card{
+  border: #000 1px solid;
+  border-radius: 15px;
+  background-color: rgba(224, 224, 224, 0.432);
+  height: 550px;
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+.simge{
+  justify-content: center;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+
+
+h2, details{
+  margin-top: 30px;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+details:hover{
+    color: rgba(7, 203, 206, 0.662);
+}
+
+p{
+  width: 300px;
+  margin-top: 30px;
+}
+
+ul{
+  width: 300px;
+  margin-top: 10px;
+  color: #000;
+}
